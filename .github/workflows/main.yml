@@ -18,6 +18,9 @@ jobs:
         with:
           node-version: '20' # <<< AJUSTA ESTA VERSIÓN SI ES NECESARIO
 
+      - name: Enter folder
+        run: cd ActionTesting
+        
       - name: Install dependencies
         run: npm install
 
